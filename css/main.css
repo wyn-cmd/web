@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dimgray ;
+    
+}
+table, th, td {
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-style: solid;
+    border-color: lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-style: solid;
+    border: 2vw;
+    border-color: grey;
+    background-color: gray;
+}
+h1 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+h2 {
+    font-size: 19px;
+}
+li {
+    font-size: 11px;
+    text-align: center;
+}
+#navbar th {
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    width: 15vw;
+    float: inline-start;
+    position: sticky;
+    top: 4vw;
+}
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:khaki;
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid linen;
+    background-color:dimgrey;
+}
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    width: 99vw;
+}
+.navbar {
+    border: solid linen;
+    background-color:linen;
+}
+.sidebar-left {
+    background-color:grey;
+    width: 1vw;
+    height: 100vw;
+    position: fixed;
+    top: 9vw;
+    float: left;
+    
+}
+.dropdown {
+    display: inline-block;
+    position: fixed;
+    top: 9vw;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 9vw;
+    font-size: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: grey;
+    border: solid 2vw grey; 
+    position: fixed;
+    top: 9vw;
+    
+}
+.footer {
+    width: 94vw;
+    background-color: gray;
+    border: 3vw solid gray;
+    float: inline-end;
+}
+.content {
+    background-color: dimgray;
+    width: 83vw;
+    float: right;
+    align-items: center;
+    top: 8vw;
+}
+.text {
+    background-color: gray;
+    border: solid 1vw gray;
+}
+.right {
+    float: right;
+}
+
