@@ -1,7 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: dimgray ;
-    
+    background-color: dimgray;
 }
 table, th, td {
     font-size:20px;
@@ -68,7 +67,6 @@ li {
     position: fixed;
     top: 9vw;
     float: left;
-    
 }
 .dropdown {
     display: inline-block;
@@ -85,10 +83,9 @@ li {
 .dropdown:hover .dropdown-content {
     display: block;
     background-color: grey;
-    border: solid 2vw grey; 
+    border: solid 2vw grey;
     position: fixed;
     top: 9vw;
-    
 }
 .footer {
     width: 94vw;
